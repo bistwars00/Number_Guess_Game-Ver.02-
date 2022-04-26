@@ -1,0 +1,97 @@
+body{
+background-image: url(image/soju.jpg);
+background-size: cover;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "East Sea Dokdo", cursive;
+color:rgb(180, 155, 144);
+
+}
+
+
+.container {
+border: 10px solid rgb(223, 195, 195);
+border-radius: 20px;
+height: 100vh;
+text-align: center;
+background-color: rgba(145, 53, 89, 0.7);
+
+}
+
+
+.locate{
+position: relative;
+top: 10em;
+right: 1em;
+}
+
+.locate2{
+position: relative;
+font-size: 2em;
+}
+
+.locate3{
+position: relative;
+left: 2em;
+}
+
+/*
+.locate4{
+    position: relative;
+    left: 17em;
+    bottom: 14em;
+    width:16em;
+    border-radius: 1em;
+    opacity: 0.7;
+    }
+*/
+.white{
+    color:rgba(255, 255, 255, 0.507);
+}
+
+.red{
+color:rgb(82, 14, 14);
+}
+
+.blue{
+color:rgb(25, 25, 87);
+}
+
+
+.button1{
+border-radius: 20px;
+background-color:rgb(69, 112, 190);
+color:rgba(255, 255, 255, 0.815);
+}
+
+.button1:hover{
+background-color:rgb(139, 164, 211);
+}
+
+
+.button2{
+border-radius: 18px;
+background-color:rgb(197, 148, 74);
+color:white;
+}
+
+.button2:hover{
+background-color:rgb(218, 201, 175);
+}
+
+.input{
+    border-radius: 20px;
+    background-color:rgb(189, 136, 113);
+}
+
+
+.result{
+color:rgb(180, 155, 144);
+}
+
+.result:hover{
+color:blanchedalmond;
+}
